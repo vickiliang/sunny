@@ -59,10 +59,10 @@ span.tomorrow{
   font-style: normal;
 }
 
-a1:visited{
+a.tomorrow:visited{
   color:black;
 }
-a1:hover{
+a.tomorrow:hover{
   color: blue;
   font-style: italic;
   text-decoration: none;
