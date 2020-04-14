@@ -1,0 +1,77 @@
+h1 {
+  margin-top: -1%;
+  font-family: savate;
+  color: orange;
+  font-size: 100px;
+  font-style: italic;
+  position: relative;
+  animation: sunny 3s;
+  animation-timing-function: ease-in-out;
+}
+
+/* NOTE: below does not work anymore, because I add in up to date Java */
+span.date{
+  margin-top: 1%;
+  font-family: savate;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+
+img{
+  max-height: 400px;
+  width: auto;
+  object-fit: cover;
+}
+
+.centre{
+  display: block;
+  margin: 0 auto;
+  width: 19%;
+}
+
+h2{
+  bottom: 5px;
+  font-family: savate;
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  position: fixed;
+}
+
+a:visited{
+  color:black;
+}
+a:hover{
+  color: green;
+  font-style: italic;
+  text-decoration: none;
+}
+span.tomorrow{
+  position: absolute;
+  right:-1250px;
+  font-family: savate;
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+}
+
+a1:visited{
+  color:black;
+}
+a1:hover{
+  color: blue;
+  font-style: italic;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+@keyframes sunny {
+  from {margin-left: 100%;
+  width: 200%}
+  to {margin-right: 0%;
+  width: 100%}
+}
